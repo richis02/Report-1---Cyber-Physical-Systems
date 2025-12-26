@@ -38,6 +38,6 @@ weeping-can-sim/
 ├── simulation.py           # Helper for visualization (CLI output)
 │
 ├── README.md               # This file
-└── requirements.txt        # Dependencies
+└── requirements.txt        # Dependencies```
 
 ## 🚀 Installation
