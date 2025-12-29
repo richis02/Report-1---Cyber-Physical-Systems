@@ -39,7 +39,6 @@ weeping-can-sim/
 │
 ├── config.py               # Central configuration file (Simulation parameters)
 ├── main.py                 # Main simulation engine (Time-loop & Queue logic)
-├── reproduce_fig3.py       # Script to generate the comparative grid plot (Skip 2-6)
 ├── simulation.py           # Visualization helper (Console bit-collision output)
 │
 ├── README.md               # This file
