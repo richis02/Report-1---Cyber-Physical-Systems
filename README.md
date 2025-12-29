@@ -66,13 +66,6 @@ python main.py
 
 *This will run the simulation, print the physical bit-collision analysis to the console, and generate a plot for the currently configured scenario.*
 
-### 3. Reproducing Paper Results (Figure 3)
-To generate the full comparison grid (Skip 2, 3, 4, 5, 6) that replicates **Figure 3** of the reference paper:
-
-```bash
-python reproduce_fig3.py
-```
-
 ---
 
 ## ⚙️ Configuration
@@ -102,5 +95,5 @@ $$
 $$
 
 ### Key Findings:
-* **Aggressive Attack (Skip 2):** The victim is forced into Bus-off quickly (~3s), but the attacker's TEC rises, reducing stealth.
+* **Aggressive Attack (Skip 2):** The victim is forced into Bus-off quickly (~1.5s), but the attacker's TEC rises, reducing stealth.
 * **Stealth Attack (Skip 6):** The victim accumulates errors slowly. The extended skip interval allows the attacker to transmit sufficient background traffic to keep its TEC near zero, remaining virtually invisible.
